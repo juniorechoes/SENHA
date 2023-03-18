@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="login.php" method="post" enctype="application/x-www-form-urlencoded" name="form1" id="form1">
+
+    <div class="container">
+       
+
+            <div class="login-container">
+            <img src="img/logogre.png">  
+
+                <input id="item-1" type="radio" name="item" class="sign-in" checked><label for="item-1" class="item"></label>
+
+                <input id="item-2" type="radio" name="item" class="sign-up"><label for="item-2" class="item"></label>
+
+                <div class="login-form">
+                    <div class="sign-in-htm">
+                        <div class="group">
+                            <input placeholder="Nome" id="login" type="text" class="input">
+                        </div>
+                        <div class="group">
+                            <input placeholder="Senha" id="senha" type="password" class="input" data-type="password">
+                        </div>
+    
+                        <div class="group">
+                            <input type="submit" class="button" value="Entrar">
+                        </div><br><br>
+                        <div class="footer">
+                            <input id="item-2" type="radio" name="item" class="sign-up"><label for="item-2" >Conta Nova</label><br>
+
+                            <a href="#forgot">Esqueceu a senha?</a>
+                        </div>
+                    </div>
+                    <div class="sign-up-htm">
+                        <div class="group">
+                            <input placeholder="Nome" id="user" type="text" class="input">
+                        </div>
+    
+                        <div class="group">
+                            <input placeholder="Email " id="pass" type="text" class="input">
+                        </div>
+    
+                        <div class="group">
+                            <input placeholder="Senha" id="pass" type="password" class="input" data-type="password">
+                        </div>
+                        <div class="group">
+                            <input placeholder="Repita senha" id="pass" type="password" class="input" data-type="password">
+                        </div>
+    
+                        <div class="group">
+                            <input type="submit" class="button" value="ENVIAR">
+                        </div>
+                        <div class="footer">
+                            <label for="item-1">Ja possui uma conta?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
